@@ -10,7 +10,7 @@ import { Country } from '../../interfaces/country.interface';
 export class ByCapitalPageComponent {
 
   public countries: Country[] = [];
-  public isLoading: boolean = true;
+  public isLoading: boolean = false;
 
   //           *Inyeccion del servicio
   constructor( private countriesService: CountriesService ){}
